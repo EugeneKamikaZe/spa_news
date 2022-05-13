@@ -3,34 +3,37 @@
 }
 
 .not__found {
-  height: 100vh;
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
+  height: 100vh;
 
   &-title {
-    display: flex;
-    align-items: center;
+  	display: flex;
+  	align-items: center;
 
-    font-family: "Rubik", sans-serif;
-    font-size: 150px;
-    font-weight: 500;
-    line-height: 175px;
+  	font-family: "Rubik", sans-serif;
+  	font-size: 150px;
+  	font-weight: 500;
+  	line-height: 175px;
   }
 
   &-additional__title {
-    font-size: 40px;
-    font-family: "Rubik", sans-serif;
-    line-height: 48px;
-    margin-bottom: 8px;
-    font-weight: 500;
+  	margin-bottom: 8px;
+
+  	font-family: "Rubik", sans-serif;
+  	font-size: 40px;
+  	font-weight: 500;
+  	line-height: 48px;
   }
 
   &-descr {
-    font-size: 19px;
-    line-height: 24px;
-    margin-bottom: 24px;
+  	margin-bottom: 24px;
+
+  	font-size: 19px;
+  	line-height: 24px;
   }
 }
 

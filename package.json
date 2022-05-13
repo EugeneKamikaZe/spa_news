@@ -7,7 +7,8 @@
     "start-react": "cross-env NODE_ENV=development webpack serve",
     "build:dev": "cross-env NODE_ENV=development webpack --config webpack.config.js",
     "build:prod": "cross-env NODE_ENV=production webpack --config webpack.config.js",
-    "json-server": "json-server --watch db.json --port 3010"
+    "json-server": "json-server --watch db.json --port 3010",
+    "cssComb": "csscomb src"
   },
   "dependencies": {
     "react": "^18.1.0",
@@ -45,7 +46,8 @@
     "webpack": "^5.72.0",
     "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^3.11.3"
+    "webpack-dev-server": "^3.11.3",
+    "csscomb": "^3.1.8"
   },
   "eslintConfig": {
     "extends": [

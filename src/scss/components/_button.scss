@@ -1,65 +1,62 @@
 .btn {
   display: block;
 
+  padding: 4px 14px;
+
   cursor: pointer;
   transition: color .15s ease-in-out, background-color .15s ease-in-out;
   text-align: center;
   white-space: nowrap;
 
+  color: #091e42;
+  border: 1px solid;
+  border-radius: 4px;
   outline: none;
 
   font-family: "Source Sans Pro", sans-serif;
-
-  color: #091e42;
-
-  border: 1px solid;
-  border-radius: 4px;
-
-  line-height: 1.5;
-
-  padding: 4px 14px;
-
   font-size: 14px;
   font-weight: 600;
+  line-height: 1.5;
 
   &-primary {
-    border-color: $yellow;
-    background-color: $yellow;
+  	border-color: $yellow;
+  	background-color: $yellow;
 
-    &:hover {
-      border-color: $yellow-hover;
-      background-color: $yellow-hover;
-    }
+  	&:hover {
+  		border-color: $yellow-hover;
+  		background-color: $yellow-hover;
+  	}
   }
 
   &-success {
-    background: $btn-success;
-    border-color: $btn-success;
+  	border-color: $btn-success;
+  	background: $btn-success;
 
-    &:hover {
-      border-color: $accent-green;
-      background-color: $accent-green;
-    }
+  	&:hover {
+  		border-color: $accent-green;
+  		background-color: $accent-green;
+  	}
   }
 
   &-error {
-    background: $btn-error;
-    border-color: $btn-error;
+  	border-color: $btn-error;
+  	background: $btn-error;
 
-    &:hover {
-      border-color: $accent-red;
-      background-color: $accent-red;
-    }
+  	&:hover {
+  		border-color: $accent-red;
+  		background-color: $accent-red;
+  	}
   }
 
   &.disabled {
-    cursor: default;
-    background-color: $gray-300;
-    border-color: $gray-300;
+  	cursor: default;
 
-    &:hover {
-      background-color: $gray-300;
-      border-color: $gray-300;
-    }
+  	border-color: $gray-300;
+  	background-color: $gray-300;
+
+  	&:hover {
+  		border-color: $gray-300;
+  		background-color: $gray-300;
+  	}
   }
 }

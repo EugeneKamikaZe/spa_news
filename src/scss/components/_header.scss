@@ -2,25 +2,29 @@
   position: relative;
   top: 0;
   left: 0;
+
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+
   width: 100%;
-  padding: 8px 16px;
   margin-bottom: 32px;
+  padding: 8px 16px;
 
   &-logo {
-    cursor: pointer;
+  	cursor: pointer;
   }
 
   &-list {
-    display: flex;
-    list-style: none;
+  	display: flex;
 
-    &_item {
-      margin-left: 16px;
-      cursor: pointer;
-      text-transform: capitalize;
-    }
+  	list-style: none;
+
+  	&_item {
+  		margin-left: 16px;
+
+  		cursor: pointer;
+  		text-transform: capitalize;
+  	}
   }
 }

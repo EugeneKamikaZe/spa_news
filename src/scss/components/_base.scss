@@ -6,14 +6,17 @@
   padding: 0;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
 
 body {
+  color: #091e42;
+
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
-  color: #091e42;
 }
 
 h1,
@@ -44,4 +47,3 @@ h3 {
 .ml {
   margin-left: auto;
 }
-

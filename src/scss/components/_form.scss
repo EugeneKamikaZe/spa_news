@@ -5,27 +5,27 @@
   margin-bottom: 16px;
 
   &_label {
-    margin-bottom: 8px;
+  	margin-bottom: 8px;
 
-    font-size: 14px;
+  	font-size: 14px;
   }
 
   input {
-    height: 40px;
-    padding: 0 32px 0 16px;
+  	height: 40px;
+  	padding: 0 32px 0 16px;
 
-    border: 1px solid #c1c7d0;
-    border-radius: 4px;
-    outline: none;
+  	border: 1px solid #c1c7d0;
+  	border-radius: 4px;
+  	outline: none;
 
-    font-size: 16px;
+  	font-size: 16px;
 
-    &:hover {
-      color: #091e42;
-      border-color: #88c4ff;
-      outline: 0;
-      background-color: #fff;
-      box-shadow: 0 0 0 .05rem #88c4ff;
-    }
+  	&:hover {
+  		color: #091e42;
+  		border-color: #88c4ff;
+  		outline: 0;
+  		background-color: #fff;
+  		box-shadow: 0 0 0 .05rem #88c4ff;
+  	}
   }
 }
