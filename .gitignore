@@ -1,5 +1,6 @@
 package-lock.json
 *.d.ts
+.idea
 
 # dependencies
 /node_modules
