@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin",
+      "pass": "admin",
+      "rights": "admin"
+    },
+    {
+      "id": 2,
+      "name": "user",
+      "email": "user@mail.com",
+      "pass": "12345678",
+      "rights": "user"
+    },
+    {
+      "id": 3,
+      "name": "Leonid",
+      "email": "leonid@mail.com",
+      "pass": "pa$$w0rd",
+      "rights": "user"
+    },
+    {
+      "id": 4,
+      "name": "Mark",
+      "email": "123@mail.com",
+      "pass": "123",
+      "rights": "user"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Заголовок",
+      "text": "Какая-то новость",
+      "date": "06.09.1970",
+      "approved": true
+    },
+    {
+      "id": 2,
+      "title": "Title",
+      "text": "Some text",
+      "date": "13.12.1970",
+      "approved": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+.news {
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    border: 1px solid $gray-600;
+    margin-bottom: 16px;
+    padding: 24px;
+
+    &_info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &_date {
+      margin-top: auto;
+    }
+
+    .approve {
+      display: block;
+      margin-bottom: 8px;
+      text-align: right;
+    }
+
+    .btn {
+      margin-bottom: 8px;
+      margin-left: auto;
+    }
+  }
+}
